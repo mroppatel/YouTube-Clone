@@ -43,41 +43,6 @@ This project is a YouTube clone built with [React](https://reactjs.org/) and [Ta
 ### Live Chat
 ![Live Chat](#) <!-- Add link to your screenshot here -->
 
-## Folder Structure
-youtube-clone/
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-├── src/
-│   ├── components/
-│   │   ├── Body.js
-│   │   ├── ButtonList.js
-│   │   ├── ChatMassage.js
-│   │   ├── Feed.js
-│   │   ├── LiveChat.js
-│   │   ├── NavBar.js
-│   │   ├── SideBar.js
-│   │   ├── VideoCart.js
-│   │   ├── VideoContainer.js
-│   │   └── Watch.js
-│   ├── constant/
-│   │   └── youtube.js
-│   ├── Utils/
-│   │   ├── appSlice.js
-│   │   └── store.js
-│   ├── App.js
-│   ├── index.css
-│   └── index.js
-├── .gitignore
-├── README.md
-├── package-lock.json
-├── package.json
-└── tailwind.config.js
-
 
 ## Getting Started
 
