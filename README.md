@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# YouTube Clone Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a YouTube clone built with [React](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/). It replicates the core functionalities of YouTube, such as browsing videos, watching videos, and live chat, with a modern, responsive design.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Folder Structure](#folder-structure)
+  - [Public](#public)
+  - [Src](#src)
+  - [Components](#components)
+  - [Utils](#utils)
+  - [Constant](#constant)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Video Browsing**: Browse and watch videos.
+- **Search Functionality**: Search for videos using keywords.
+- **Live Chat**: Engage in live chat during video playback.
+- **Responsive Design**: Adapts to various screen sizes for mobile and desktop.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+[YouTube Clone Live Demo](#) <!-- Add link to your live demo here -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+### Home Page
+![Home Page](#) <!-- Add link to your screenshot here -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Video Page
+![Video Page](#) <!-- Add link to your screenshot here -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Live Chat
+![Live Chat](#) <!-- Add link to your screenshot here -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Folder Structure
+youtube-clone/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── Body.js
+│   │   ├── ButtonList.js
+│   │   ├── ChatMassage.js
+│   │   ├── Feed.js
+│   │   ├── LiveChat.js
+│   │   ├── NavBar.js
+│   │   ├── SideBar.js
+│   │   ├── VideoCart.js
+│   │   ├── VideoContainer.js
+│   │   └── Watch.js
+│   ├── constant/
+│   │   └── youtube.js
+│   ├── Utils/
+│   │   ├── appSlice.js
+│   │   └── store.js
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── README.md
+├── package-lock.json
+├── package.json
+└── tailwind.config.js
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ensure you have the following installed:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js (>= 14.0.0)
+- npm (>= 6.0.0)
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/youtube-clone.git
+   cd youtube-clone
